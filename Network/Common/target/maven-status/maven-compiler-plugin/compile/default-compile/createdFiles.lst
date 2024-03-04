@@ -1,0 +1,6 @@
+ru\boost\network\common\controller\AbstractConnectionController.class
+ru\boost\network\common\handler\rest\server\RESTContext.class
+ru\boost\network\common\handler\rest\server\TestRESTHandler.class
+ru\boost\network\common\controller\CommonConnectionController.class
+ru\boost\network\common\handler\rest\server\RESTHandlerInitiateFunction.class
+ru\boost\network\common\handler\rest\server\TestRESTHandler$1.class
