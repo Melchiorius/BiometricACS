@@ -6,8 +6,8 @@ import java.io.*;
 import java.nio.file.Paths;
 import java.util.Properties;
 
-public abstract class Settings implements PIProperties {
-    protected Settings(){
+public abstract class AbstractSettings implements PIProperties {
+    protected AbstractSettings(){
         load();
     }
     private Properties props = new Properties();

@@ -14,6 +14,7 @@ public class MainController {
     private static VideoSenderServerController videoSender;
 
     public static void main(String[] args) throws IOException {
+        Settings.load();
         baseModel = new BaseModel();
         RESTServerController restServerController = new RESTServerController(Settings.RESTPort);
         restServerController.start();

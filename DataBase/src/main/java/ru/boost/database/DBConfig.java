@@ -1,12 +1,9 @@
 package ru.boost.database;
 
-import ru.boost.database.settings.Settings;
+import ru.boost.database.settings.AbstractSettings;
 import ru.boost.database.settings.properties.PIDataBase;
 
-import java.io.File;
-import java.nio.file.Paths;
-
-public class DBConfig extends Settings implements PIDataBase {
+public class DBConfig extends AbstractSettings implements PIDataBase {
 
 
     private String host;
