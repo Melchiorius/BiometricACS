@@ -166,7 +166,7 @@ public class DBConfig extends Settings implements PIDataBase {
         setProperty(getDBEnvPasswordKey(), getDBEnvPasswordDefaultValue());
         setProperty(getDBPasswordKey(), getDBPasswordDefaultValue());
         fillProperties();
-        //save();
+        save();
     }
 
     @Override
